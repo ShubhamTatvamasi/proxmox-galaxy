@@ -1,0 +1,6 @@
+---
+proxmox_user: root@pam
+proxmox_password:
+proxmox_host: 192.168.4.2
+proxmox_node: pve
+vm_id: 101

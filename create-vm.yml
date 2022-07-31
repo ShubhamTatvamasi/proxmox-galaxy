@@ -1,0 +1,16 @@
+---
+- name: Create Proxmox VM
+  connection: local
+  hosts: localhost
+  roles:
+    - role: clone
+    - role: config
+    - role: start
+  vars:
+    proxmox_password: # Please add proxmox password here
+    vm_name: my-vm
+    vm_id: 101
+    vm_cores: 2
+    vm_memory: 2048
+    vm_disk_size: 10G
+    vm_ip: 192.168.4.11

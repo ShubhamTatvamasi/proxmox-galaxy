@@ -1,0 +1,11 @@
+---
+proxmox_user: root@pam
+proxmox_password:
+proxmox_host: 192.168.4.2
+proxmox_node: pve
+clone_vm_id: 9000
+vm_id: 101
+timeout: 500
+full_copy: no
+clone_name: arbitrary_name
+vm_name: new-vm

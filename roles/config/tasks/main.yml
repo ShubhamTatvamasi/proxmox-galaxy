@@ -1,0 +1,5 @@
+---
+- import_tasks: update-memory-and-cpu.yml
+- import_tasks: authenticate.yml
+- import_tasks: resize-storage.yml
+- import_tasks: setup-network-and-ssh-key.yml

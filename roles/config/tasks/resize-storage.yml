@@ -1,0 +1,13 @@
+---
+- name: resize disk
+  uri:
+    url: "https://{{ proxmox_host }}:8006/api2/json/nodes/{{ proxmox_node }}/qemu/{{ vm_id }}/resize"
+    validate_certs: no
+    method: PUT
+    headers: 
+      Cookie: "PVEAuthCookie={{ auth.json.data.ticket }}"
+      CSRFPreventionToken: "{{ auth.json.data.CSRFPreventionToken }}"
+    body_format: form-urlencoded
+    body:
+      disk: "{{ vm_disk_name }}"
+      size: "{{ vm_disk_size }}"

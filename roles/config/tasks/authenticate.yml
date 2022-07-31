@@ -1,0 +1,11 @@
+---
+- name: authenticate
+  uri:
+    url: "https://{{ proxmox_host }}:8006/api2/json/access/ticket"
+    validate_certs: no
+    method: POST
+    body_format: form-urlencoded
+    body:
+      username: "{{ proxmox_user }}"
+      password: "{{ proxmox_password }}"
+  register: auth
