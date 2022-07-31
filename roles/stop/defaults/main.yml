@@ -4,4 +4,4 @@ proxmox_password:
 proxmox_host: 192.168.4.2
 proxmox_node: pve
 vm_id: 101
-timeout: 500
+vm_timeout: 500

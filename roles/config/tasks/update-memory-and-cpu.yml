@@ -10,4 +10,4 @@
     memory: "{{ vm_memory }}"
     cpu: "{{ vm_cpu_type }}"
     update: yes
-    timeout: "{{ timeout }}"
+    vm_timeout: "{{ vm_timeout }}"

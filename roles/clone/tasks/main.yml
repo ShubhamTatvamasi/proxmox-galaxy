@@ -10,4 +10,4 @@
     vmid: "{{ clone_vm_id }}"
     newid: "{{ vm_id }}"
     full: "{{ full_copy }}"
-    timeout: "{{ timeout }}"
+    vm_timeout: "{{ vm_timeout }}"

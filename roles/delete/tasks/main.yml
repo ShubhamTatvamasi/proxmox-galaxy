@@ -7,4 +7,4 @@
     node: "{{ proxmox_node }}"
     vmid: "{{ vm_id }}"
     state: absent
-    timeout: "{{ timeout }}"
+    vm_timeout: "{{ vm_timeout }}"
