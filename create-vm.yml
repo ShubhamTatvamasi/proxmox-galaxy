@@ -6,6 +6,8 @@
     - role: clone
     - role: config
     - role: start
+    # - role: stop
+    # - role: delete
   vars:
     proxmox_password: # Please add proxmox password here
     vm_name: my-vm

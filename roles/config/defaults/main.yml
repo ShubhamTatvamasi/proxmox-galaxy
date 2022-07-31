@@ -11,3 +11,4 @@ vm_disk_size: 10G
 vm_ip: 192.168.4.10
 vm_gateway_ip: 192.168.4.1
 vm_cpu_type: host
+timeout: 500
