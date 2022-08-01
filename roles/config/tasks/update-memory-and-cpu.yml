@@ -7,7 +7,7 @@
     node: "{{ proxmox_node }}"
     vmid: "{{ vm_id }}"
     cores: "{{ vm_cores }}"
-    memory: "{{ vm_memory }}"
+    memory: "{{ vm_memory_in_gb * 1024 }}"
     cpu: "{{ vm_cpu_type }}"
     update: yes
     timeout: "{{ vm_timeout }}"

@@ -5,7 +5,7 @@ proxmox_host: 192.168.4.2
 proxmox_node: pve
 vm_id: 101
 vm_cores: 2
-vm_memory: 2048
+vm_memory_in_gb: 2
 vm_disk_name: scsi0
 vm_disk_size: 10G
 vm_ip: 192.168.4.10
