@@ -8,4 +8,4 @@
     vmid: "{{ vm_id }}"
     state: stopped
     force: yes
-    vm_timeout: "{{ vm_timeout }}"
+    timeout: "{{ vm_timeout }}"
