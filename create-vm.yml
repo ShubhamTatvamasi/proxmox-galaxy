@@ -10,7 +10,7 @@
     # - role: delete
   vars:
     proxmox_password: # Please add proxmox password here
-    vm_name: my-vm
+    vm_name: my-vm # Please update VM name, it should be unique
     vm_id: 101
     vm_cores: 2
     vm_memory_in_gb: 2

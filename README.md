@@ -2,7 +2,7 @@
 
 Install dependant collections:
 ```bash
-pip install promoxer
+pip3 install promoxer
 ansible-galaxy collection install shubhamtatvamasi.proxmox
 ```
 
