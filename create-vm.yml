@@ -11,7 +11,7 @@
   vars:
     proxmox_password: # Please add proxmox password here
     vm_name: my-vm # Please update VM name, it should be unique
-    vm_id: 101
+    vm_id: 101 # Please update VM ID, it should be unique
     vm_cores: 2
     vm_memory_in_gb: 2
     vm_disk_size: 10G
